@@ -1,19 +1,23 @@
 import './App.css';
-// import './images/Downtown_Corsicana_Panorama.jpg';
+// import 'images/Downtown_Corsicana_Panorama.jpg';
 
 function App() {
 	return (
 		<div className='App'>
 			<header className='App-header'>
-				<h1 class='App-header-text' id='App-site-title'>
+				<h1 className='App-header-text' id='App-site-title'>
 					Beard Mediation, LLC.
 				</h1>
-				<div class='App-header-hero-img'>
-					<image src='./images/Downtown_Corsicana_Panorama.jpg' />
-				</div>
 			</header>
+			<div className='App-hero-img'>
+				<img
+					src={require('./images/Downtown_Corsicana_Panorama.jpg')}
+					alt='Downtown Corsicana'
+				/>
+			</div>
 			<main className='App-main'>
 				{/* image to left/sidebar on desktop? */}
+
 				{/* paragraph to right on desktop/center on mobile */}
 			</main>
 		</div>

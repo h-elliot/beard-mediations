@@ -1,10 +1,21 @@
+/* COLORS
+  Platinum = #ebeaeb
+  Wintergreen Dream = #679289
+  Amazon = #34795f
+  Charleston Green = #272d2d
+  Black Chocolate? = #1e2019
+  Dark Liver? = #63585e
+  Old Rose? = #c17c74
+  Medium Carmine? = #a44a3f 
+*/
+
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 100%;
+  width: 100%;
+  
+  background-color: #679289;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,14 +25,25 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #34795f;
+  height: 13vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-hero-img, img {
+  width: 100%;
+  margin-top: 0;
+  max-height: 17vh;
+}
+
+.App-main {
+  margin: 10vh;
+  background-color: #ebeaeb;
 }
 
 .App-link {
