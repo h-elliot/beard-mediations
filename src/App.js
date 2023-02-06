@@ -1,5 +1,5 @@
 import './App.css';
-// import './images/Downtown_Corsicana_Panorama_Wiki_(1_of_1).jpg';
+// import './images/Downtown_Corsicana_Panorama.jpg';
 
 function App() {
 	return (
@@ -8,8 +8,14 @@ function App() {
 				<h1 class='App-header-text' id='App-site-title'>
 					Beard Mediation, LLC.
 				</h1>
+				<div class='App-header-hero-img'>
+					<image src='./images/Downtown_Corsicana_Panorama.jpg' />
+				</div>
 			</header>
-			<main className='App-main'></main>
+			<main className='App-main'>
+				{/* image to left/sidebar on desktop? */}
+				{/* paragraph to right on desktop/center on mobile */}
+			</main>
 		</div>
 	);
 }
