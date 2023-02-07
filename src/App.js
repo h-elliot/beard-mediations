@@ -9,15 +9,18 @@ function App() {
 					Beard Mediation, LLC.
 				</h1>
 			</header>
-			<div className='App-hero-img'>
-				<img
-					src={require('./images/Downtown_Corsicana_Panorama.jpg')}
-					alt='Downtown Corsicana'
-				/>
-			</div>
-			<main className='App-main'>
-				{/* image to left/sidebar on desktop? */}
 
+			<main className='App-main'>
+				<div className='App-hero-img'>
+					<img
+						src={require('./images/robson-hatsukami-morgan-large.jpg')}
+						alt='Downtown Corsicana'
+					/>
+				</div>
+				{/* image to left/sidebar on desktop? */}
+				<section className='App-main-text-section'>
+					<p className='App-main-text-content'></p>
+				</section>
 				{/* paragraph to right on desktop/center on mobile */}
 			</main>
 		</div>

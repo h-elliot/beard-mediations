@@ -1,21 +1,31 @@
-/* COLORS
-  Platinum = #ebeaeb
-  Wintergreen Dream = #679289
-  Amazon = #34795f
-  Charleston Green = #272d2d
-  Black Chocolate? = #1e2019
-  Dark Liver? = #63585e
-  Old Rose? = #c17c74
-  Medium Carmine? = #a44a3f 
+
+/* CSS HEX 
+--gunmetal: #28353Dff;
+--paynes-gray: #45576Dff;
+--slate-gray: #768A95ff;
+--columbia-blue: #AAC7D7ff;
+--alice-blue: #DFEBF7ff;
+--platinum: #E6E6E6ff;
+--seasalt: #F8F8F8ff;
+--gamboge: #EFA00B;
+--xanthous: #F8C463;
+
 */
 
+*, html, body {
+  height: 100vh;
+  color: #28353Dff
+}
 
 .App {
   text-align: center;
   height: 100%;
   width: 100%;
-  
-  background-color: #679289;
+  background-color: #AAC7D7ff;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  justify-items: ;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -25,29 +35,46 @@
 }
 
 .App-header {
-  background-color: #34795f;
-  height: 13vh;
+  background-color: #28353Dff;
+  height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #E1E8EEff;
+}
+
+.App-header-text {
+  height: 100%;
+  width:100%;
+}
+
+
+.App-main {
+  position: center;
+  background-color: #E1E8EEff;
+  /* height: 95vh; */
+  width: 90%;
 }
 
 .App-hero-img, img {
+  position: center;
+  /* background-size: cover; */
   width: 100%;
-  margin-top: 0;
-  max-height: 17vh;
+  height: auto;
 }
 
-.App-main {
-  margin: 10vh;
-  background-color: #ebeaeb;
+.App-main-text-section {
+  margin: 5vh;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #EFA00B;
+}
+
+.App-link:hover {
+  color: #F8C463;
 }
 
 @keyframes App-logo-spin {
