@@ -5,9 +5,13 @@ function App() {
 	return (
 		<div className='App'>
 			<header className='App-header'>
-				<h1 className='App-header-text' id='App-site-title'>
+				<h2 className='App-header-text' id='App-site-title'>
 					Beard Mediation, LLC.
-				</h1>
+				</h2>
+				<ul className='App-header-nav'>
+					<li>About</li>
+					<li>Contact</li>
+				</ul>
 			</header>
 
 			<main className='App-main'>
