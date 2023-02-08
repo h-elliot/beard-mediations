@@ -11,6 +11,11 @@ function App() {
 	return (
 		<div className='App'>
 			<Navbar />
+			<div
+				style={{
+					height: sticky ? `${stickyRef.current?.clientHeight}px` : '0px',
+				}}
+			/>
 			<HeroImg />
 			<Sidebar /> <PageContent />
 			<Footer />

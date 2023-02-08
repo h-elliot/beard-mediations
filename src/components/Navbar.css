@@ -2,7 +2,7 @@
 
 .App-header {
 	min-height: 6vh;
-	/* max-height: 7vh; */
+	max-height: 7vh;
 	width: 100%;
 	box-sizing: border-box;
 	display: flex;
@@ -13,15 +13,15 @@
 	background-color: #28353Dff;
 	/* align-content: stretch; */
 	/* font-size: calc(6px + 2vmin); */
-	/* color: #E1E8EEff;
-  position: sticky; */
-	/* top: 0; */
+	/* color: #E1E8EEff; */
+  	position: sticky; 
+	top: 0;
 }
-.scrolled{
+/* for useSticky hook */
+/* .sticky {
 	position: fixed;
 	top: 0;
-	left: 0;
-}
+} */
 
 .Header-text {
 	/* max-height: 6vh; */
@@ -33,7 +33,7 @@
 	/* align-self: flex-end; */
 	/* max-height: 8vh; */
 	/* padding: 5px; */
-	/* display: flex;
-	justify-content: space-around; */
+	display: flex;
+	justify-content: space-between;
 	font-size: calc(8px + 2vmin);
 }
