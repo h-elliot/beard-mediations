@@ -1,0 +1,31 @@
+/* HEADER */
+
+.App-header {
+	background-color: #28353Dff;
+	max-height: 7vh;
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	align-content: stretch;
+	justify-content: center;
+	/* font-size: calc(6px + 2vmin); */
+	/* color: #E1E8EEff;
+  position: sticky; */
+	top: 0;
+}
+
+.App-header-text {
+	max-height: 6vh;
+	font-size: calc(10px + 2vmin);
+	color: #E1E8EEff;
+}
+
+.App-header-nav {
+	/* align-self: flex-end; */
+	max-height: 8vh;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	font-size: calc(8px + 2vmin);
+}
