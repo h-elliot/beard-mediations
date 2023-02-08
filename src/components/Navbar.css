@@ -10,7 +10,7 @@
 	justify-content: space-between;
 	align-items: center;
 	transition: all .7s ease-in;
-	background-color: #28353Dff;
+	background-color: rgb(25, 34, 40);
 	/* align-content: stretch; */
 	/* font-size: calc(6px + 2vmin); */
   	position: sticky; 

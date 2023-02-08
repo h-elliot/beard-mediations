@@ -21,7 +21,7 @@ function App() {
 				<Sidebar />
 				<PageContent />
 			</main>{' '}
-			<Sidebar />
+			{/* <Sidebar /> */}
 			<Footer />
 		</div>
 	);

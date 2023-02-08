@@ -1,25 +1,25 @@
 /* MAIN */
 
-.Page-content {
-	flex-grow: 3;
+.Page-content-all {
+	flex-basis: auto;
 	position: center;
-	background-color: #E1E8EEff;
-	height: 85vh;
+	/* height: 85vh; */
 	width: 70%;
 	overflow: auto;
 	margin: 1vh;
 }
 
-.Page-content-title {
-	color: #45576Dff;
-	margin: 0;
-	padding: 1vh;
-	height: auto;
+.Page-content-article {
+	background-color: #E1E8EEff;
 }
+
+
 
 .Page-content-text {
 	color: #28353Dff;
 	margin: 0;
-	padding: 1vh;
+	padding: 1.5vh;
+	padding-top: 0;
 	text-align: left;
+	font-size: .9em;
 }
