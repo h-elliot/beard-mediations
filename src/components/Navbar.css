@@ -16,11 +16,6 @@
   	position: sticky; 
 	top: 0;
 }
-/* for useSticky hook */
-/* .sticky {
-	position: fixed;
-	top: 0;
-} */
 
 .Header-text {
 	/* max-height: 6vh; */
