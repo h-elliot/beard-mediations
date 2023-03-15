@@ -2,18 +2,13 @@
 
 .Page-content-all {
 	flex-basis: auto;
-	position: center;
+	position: absolute;
 	/* height: 85vh; */
-	width: 70%;
+	width: 50%;
+	left: 0;
 	overflow: auto;
 	margin: 1vh;
 }
-
-.Page-content-article {
-	background-color: #E1E8EEff;
-}
-
-
 
 .Page-content-text {
 	color: #28353Dff;
@@ -21,5 +16,5 @@
 	padding: 3vh;
 	padding-top: 2vh;
 	text-align: left;
-	font-size: .9em;
+	font-size: 1.3em;
 }
