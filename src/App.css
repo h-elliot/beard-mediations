@@ -4,9 +4,11 @@
 #D8E9E9 BG 2
 #32292F DARK
 #575366 NEUTRAL
-#326771 MEDIUM
+#326771 MEDIUM 
 #D17A22 HIGHLIGHT
 #C1292E ERROR
+
+color: #326771
 
 */
 
@@ -41,9 +43,9 @@
 }
 
 .App-link {
-  color: #EFA00B;
+  color: #D17A22;
 }
 
 .App-link:hover {
-  color: #F8C463;
+  color: #32292F;
 }
