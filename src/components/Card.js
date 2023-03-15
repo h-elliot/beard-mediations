@@ -1,14 +1,18 @@
 import React from 'react';
-import './Sidebar.css';
+import './Card.css';
 
 export default function Navbar() {
 	return (
-		<aside className='Page-sidebar'>
+		<div className='Page-card'>
 			<img
 				className='Profile-image'
 				src={require('../images/Clay-Beard-1.jpg')}
 				alt='Clay Beard Profile'
 			/>
-		</aside>
+			<ul className='Profile-contact'>
+				<li>555 555 5555</li>
+				<li>claybeard123@gmail.com</li>
+			</ul>
+		</div>
 	);
 }

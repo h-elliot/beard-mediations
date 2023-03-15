@@ -1,10 +1,11 @@
 import React from 'react';
 import './PageContent.css';
-import HeroImg from './HeroImg';
+import Card from './Card.js';
 
 export default function PageContent() {
 	return (
 		<main className='Page-content-all'>
+			<Card />
 			<article className='Page-content-article'>
 				<p className='Page-content-text'>
 					I have been a civil trial attorney specializing in eminent domain

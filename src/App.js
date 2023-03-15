@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import PageContent from './components/PageContent';
 import Footer from './components/Footer';
 import HeroImg from './components/HeroImg';
-import Sidebar from './components/Sidebar';
 import useSticky from './hooks/useSticky';
 
 function App() {
@@ -16,12 +15,14 @@ function App() {
 					height: sticky ? `${stickyRef.current?.clientHeight}px` : '0px',
 				}}
 			/>
-			<HeroImg />
 			<main className='Main-container'>
-				{/* <Sidebar /> */}
-				<PageContent />
+				<div className='Hero-Img'>
+					<HeroImg />
+				</div>
+				<div className='Page-Content'>
+					<PageContent />
+				</div>
 			</main>{' '}
-			{/* <Sidebar /> */}
 			<Footer />
 		</div>
 	);

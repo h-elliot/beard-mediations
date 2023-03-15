@@ -1,0 +1,30 @@
+.Page-card {
+	flex-basis: 25vh;
+	max-height: 25vh;
+	margin: 1vh;
+	margin-right: 0;
+
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+
+}
+
+.Profile-image {
+	max-height: 23vh;
+	width: auto;
+	border-radius: 50%;
+	border: 3px solid #32292F;
+	
+}
+.Profile-contact ul {
+	height: 23vh;
+	padding: none;
+}
+
+.Profile-contact li {
+	max-height: 4vh;
+	font-size: large;
+	list-style-type: none;
+	text-align: left;
+}

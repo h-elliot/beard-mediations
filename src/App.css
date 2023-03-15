@@ -49,3 +49,9 @@ color: #326771
 .App-link:hover {
   color: #32292F;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0
+}

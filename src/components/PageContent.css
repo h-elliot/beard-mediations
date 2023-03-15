@@ -2,7 +2,7 @@
 
 .Page-content-all {
 	flex-basis: auto;
-	position: absolute;
+	/* position: absolute; */
 	/* height: 85vh; */
 	width: 50%;
 	left: 0;
