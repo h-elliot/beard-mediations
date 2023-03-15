@@ -11,6 +11,9 @@ export default function Navbar() {
 			/>
 			<div className='Card-text'>
 				<h2 className='Card-title'>Hello, my name is Clay Beard.</h2>
+				<h5 className='Card-subtitle'>
+					Give me a call or email me to schedule your mediation.{' '}
+				</h5>
 				<ul className='Profile-contact'>
 					<li id='Contact-phone'>(903) 654-8380</li>
 					<li id='Contact-email'>cbeard64@beardmediationsllc.com</li>

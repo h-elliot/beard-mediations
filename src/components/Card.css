@@ -1,7 +1,8 @@
 .Page-card {
 	flex-basis: 25vh;
-	max-height: 25vh;
+	max-height: 23vh;
 	margin-right: 0;
+	margin-left: 3%;
 
 	display: flex;
 	flex-flow: row nowrap;
@@ -12,7 +13,7 @@
 }
 
 .Profile-image {
-	max-height: 23vh;
+	max-height: 21vh;
 	width: auto;
 	border-radius: 50%;
 	border: 3px solid #32292F;
@@ -22,24 +23,38 @@
 .Card-text {
 	display: flex;
 	flex-flow: column nowrap;
+	justify-content: space-evenly;
 
 	max-height: 100%;
+	padding: 0 2%;
 }
 
 .Card-title {
 	text-align: left;
 	max-height: 10%;
-	padding: 2% 0;
+	padding: 3% 0;
+	margin: 0;
 	font-size: calc(10pt + 2vmin);
 }
 
+.Card-subtitle {
+	font-family: 'Tajawal', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	text-align: left;
+	max-height: 11%;
+	padding: 3% 0;
+	margin: 0;
+	font-size: calc(8pt + 1vmin);
+}
+
 .Profile-contact ul {
-	max-height: 75%;
-	padding: none;
+	max-height: 60%;
 }
 
 .Profile-contact li {
-	max-height: 4vh;
+	padding: 1%;
+	max-height: 25%;
 	font-size: large;
 	list-style-type: none;
 	text-align: left;
