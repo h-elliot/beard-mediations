@@ -12,6 +12,7 @@ export default function Navbar() {
 			<ul className='Profile-contact'>
 				<li>555 555 5555</li>
 				<li>claybeard123@gmail.com</li>
+				<li>1122 Lawfirm Lane, Corsicana, TX 75109</li>
 			</ul>
 		</div>
 	);
