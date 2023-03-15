@@ -1,14 +1,12 @@
 
 /* CSS HEX 
---gunmetal: #28353Dff;
---paynes-gray: #45576Dff;
---slate-gray: #768A95ff;
---columbia-blue: #AAC7D7ff;
---alice-blue: #DFEBF7ff;
---platinum: #E6E6E6ff;
---seasalt: #F8F8F8ff;
---gamboge: #EFA00B;
---xanthous: #F8C463;
+#E7E1E0 BG 1
+#D8E9E9 BG 2
+#32292F DARK
+#575366 NEUTRAL
+#326771 MEDIUM
+#D17A22 HIGHLIGHT
+#C1292E ERROR
 
 */
 
@@ -21,11 +19,19 @@
   text-align: center;
   height: 100%;
   width: 100%;
-  background-color: #AAC7D7ff;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   overflow: hidden;
+  background: hsla(9, 13%, 89%, 1);
+  
+    background: linear-gradient(135deg, hsla(9, 13%, 89%, 1) 0%, hsla(180, 28%, 88%, 1) 100%);
+  
+    background: -moz-linear-gradient(135deg, hsla(9, 13%, 89%, 1) 0%, hsla(180, 28%, 88%, 1) 100%);
+  
+    background: -webkit-linear-gradient(135deg, hsla(9, 13%, 89%, 1) 0%, hsla(180, 28%, 88%, 1) 100%);
+  
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#E7E1E0", endColorstr="#D8E9E9", GradientType=1);
 }
 
 .Main-container {
