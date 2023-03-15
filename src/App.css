@@ -12,9 +12,13 @@ color: #326771
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,400;1,500&family=Tajawal:wght@200;300;400;700;900&display=swap');
+
 *, html, body {
   height: 100vh;
-  color: #28353Dff;
+  color: #32292F;
+  overflow: hidden;
+  font-family: 'Tajawal', sans-serif;
 }
 
 .App {
@@ -27,13 +31,16 @@ color: #326771
   overflow: hidden;
   background: hsla(9, 13%, 89%, 1);
   
-    background: linear-gradient(135deg, hsla(9, 13%, 89%, 1) 0%, hsla(180, 28%, 88%, 1) 100%);
+    background: linear-gradient(225deg, hsla(9, 13%, 89%, 1) 0%, hsla(180, 28%, 88%, 1) 100%);
   
-    background: -moz-linear-gradient(135deg, hsla(9, 13%, 89%, 1) 0%, hsla(180, 28%, 88%, 1) 100%);
+    background: -moz-linear-gradient(225deg, hsla(9, 13%, 89%, 1) 0%, hsla(180, 28%, 88%, 1) 100%);
   
-    background: -webkit-linear-gradient(135deg, hsla(9, 13%, 89%, 1) 0%, hsla(180, 28%, 88%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(9, 13%, 89%, 1) 0%, hsla(180, 28%, 88%, 1) 100%);
   
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#E7E1E0", endColorstr="#D8E9E9", GradientType=1);
+
+   
+    
 }
 
 .Main-container {
@@ -43,11 +50,11 @@ color: #326771
 }
 
 .App-link {
-  color: #D17A22;
+  color: #326771;
 }
 
 .App-link:hover {
-  color: #32292F;
+  color: #D17A22;
 }
 
 ul {

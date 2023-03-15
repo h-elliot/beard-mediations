@@ -23,7 +23,7 @@ function App() {
 					<PageContent />
 				</div>
 			</main>{' '}
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
 }

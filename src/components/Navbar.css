@@ -1,13 +1,12 @@
 /* HEADER */
 
 .App-header {
-	min-height: 6vh;
 	max-height: 7vh;
 	width: 100%;
 	box-sizing: border-box;
 	display: flex;
 	/* flex-flow: row nowrap; */
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	align-items: center;
 	transition: all .7s ease-in;
 	background-color: #32292F;
@@ -15,14 +14,46 @@
 	/* font-size: calc(6px + 2vmin); */
   	position: sticky; 
 	top: 0;
+
+	
+}
+.Header-text {
+	font-family: 'Raleway', sans-serif;
+	color: #E7E1E0;
+	max-height: 3vh;
+	display: flex;
+	flex: row nowrap;
+	justify-content: center;
+	align-items: center;
+	
 }
 
-.Header-text {
-	max-height: 4vh;
+#Header-title {
+	width: 50%;
+	
+	font-size: calc(13px + 2vmin);	
+}
 
-	padding: 5%;
+#Header-text-links {
+	width: 100%;
+	display: flex;
+	flex: row nowrap;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+
+.Header-text a {
+	max-height: 100%;;
+
+	text-decoration: none;
+
+	margin-right: 5%;
 	
-	font-size: calc(10px + 2vmin);
+	font-size: calc(8px + 2vmin);
 	color: #E7E1E0;
-	
+}
+
+.Header-text a:hover {
+	color: #D8E9E9;
 }

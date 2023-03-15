@@ -8,6 +8,8 @@
 	flex-flow: row nowrap;
 	justify-content: space-evenly;
 
+	padding: 2%;
+
 }
 
 .Profile-image {
@@ -17,8 +19,23 @@
 	border: 3px solid #32292F;
 	
 }
+
+.Card-text {
+	display: flex;
+	flex-flow: column nowrap;
+
+	max-height: 100%;
+}
+
+.Card-title {
+	text-align: left;
+	max-height: 10%;
+	padding: 2% 0;
+	font-size: calc(10pt + 2vmin);
+}
+
 .Profile-contact ul {
-	height: 23vh;
+	max-height: 75%;
 	padding: none;
 }
 

@@ -2,19 +2,18 @@
 
 .Page-content-all {
 	flex-basis: auto;
-	/* position: absolute; */
-	/* height: 85vh; */
 	width: 50%;
 	left: 0;
-	overflow: auto;
+	overflow: hidden;
 	margin: 1vh;
 }
 
 .Page-content-text {
-	color: #28353Dff;
 	margin: 0;
-	padding: 3vh;
-	padding-top: 2vh;
+	padding: 0 5vh;
 	text-align: left;
 	font-size: 1.3em;
+
+	letter-spacing: 1px;
+	line-height: 24px;
 }

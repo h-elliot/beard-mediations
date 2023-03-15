@@ -9,11 +9,14 @@ export default function Navbar() {
 				src={require('../images/Clay-Beard-1.jpg')}
 				alt='Clay Beard Profile'
 			/>
-			<ul className='Profile-contact'>
-				<li>555 555 5555</li>
-				<li>claybeard123@gmail.com</li>
-				<li>1122 Lawfirm Lane, Corsicana, TX 75109</li>
-			</ul>
+			<div className='Card-text'>
+				<h2 className='Card-title'>Hello, my name is Clay Beard.</h2>
+				<ul className='Profile-contact'>
+					<li id='Contact-phone'>(903) 654-8380</li>
+					<li id='Contact-email'>cbeard64@beardmediationsllc.com</li>
+					<li>1122 Lawfirm Lane, Corsicana, TX 75109</li>
+				</ul>
+			</div>
 		</div>
 	);
 }
