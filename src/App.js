@@ -18,7 +18,7 @@ function App() {
 			/>
 			<HeroImg />
 			<main className='Main-container'>
-				<Sidebar />
+				{/* <Sidebar /> */}
 				<PageContent />
 			</main>{' '}
 			{/* <Sidebar /> */}

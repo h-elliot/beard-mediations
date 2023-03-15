@@ -8,6 +8,7 @@ export default function HeroImg() {
 			<img
 				src={require('../images/scalesofjustice_trnsp.png')}
 				alt='Landscape with a river, mountains, and stars.'
+				className='Hero-img-img'
 			/>
 		</div>
 	);

@@ -17,8 +17,12 @@
 	top: 0;
 }
 
-.Header-title {
-	/* max-height: 6vh; */
+.Header-text {
+	max-height: 4vh;
+
+	padding: 5%;
+	
 	font-size: calc(10px + 2vmin);
 	color: #E7E1E0;
+	
 }
