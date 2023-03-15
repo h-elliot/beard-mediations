@@ -7,6 +7,11 @@ export default function PageContent() {
 		<main className='Page-content-all'>
 			<Card />
 			<article className='Page-content-article'>
+				<h3>
+					Whether you represent the condemnor or the landowner, I look forward
+					for the opportunity to help you reach a successful outcome in your
+					case
+				</h3>
 				<p className='Page-content-text'>
 					I have been a civil trial attorney specializing in eminent domain
 					litigation for over 30 years, joining the Dawson & Sodd law firm right
