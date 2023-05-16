@@ -1,7 +1,7 @@
 
 /* CSS HEX 
 #E7E1E0 BG 1
-#D8E9E9 BG 2
+#BBC8D9 BG 2
 #32292F DARK
 #575366 NEUTRAL
 #326771 MEDIUM 
@@ -29,17 +29,15 @@ color: #326771
   flex-flow: column nowrap;
   align-items: center;
   overflow: hidden;
-  background: hsla(9, 13%, 89%, 1);
+  background: hsla(10, 9%, 87%, 1);
   
-    background: linear-gradient(225deg, hsla(9, 13%, 89%, 1) 0%, hsla(180, 28%, 88%, 1) 100%);
+    background: linear-gradient(180deg, hsla(10, 9%, 87%, 1) 0%, hsla(225, 10%, 84%, 1) 52%, hsla(214, 28%, 79%, 1) 100%);
   
-    background: -moz-linear-gradient(225deg, hsla(9, 13%, 89%, 1) 0%, hsla(180, 28%, 88%, 1) 100%);
+    background: -moz-linear-gradient(180deg, hsla(10, 9%, 87%, 1) 0%, hsla(225, 10%, 84%, 1) 52%, hsla(214, 28%, 79%, 1) 100%);
   
-    background: -webkit-linear-gradient(225deg, hsla(9, 13%, 89%, 1) 0%, hsla(180, 28%, 88%, 1) 100%);
+    background: -webkit-linear-gradient(180deg, hsla(10, 9%, 87%, 1) 0%, hsla(225, 10%, 84%, 1) 52%, hsla(214, 28%, 79%, 1) 100%);
   
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#E7E1E0", endColorstr="#D8E9E9", GradientType=1);
-
-   
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#E2DDDC", endColorstr="#D3D5DB", GradientType=1);
     
 }
 

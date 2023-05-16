@@ -1,5 +1,5 @@
 import React from 'react';
-import './Card.css';
+import '../styles/Card.css';
 
 export default function Navbar() {
 	return (
@@ -17,7 +17,7 @@ export default function Navbar() {
 				<ul className='Profile-contact'>
 					<li id='Contact-phone'>(903) 654-8380</li>
 					<li id='Contact-email'>cbeard64@beardmediationsllc.com</li>
-					<li>1122 Lawfirm Lane, Corsicana, TX 75109</li>
+					<li>504 W. 2nd Avenue, 75110</li>
 				</ul>
 			</div>
 		</div>
