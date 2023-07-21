@@ -7,6 +7,7 @@ import useSticky from './hooks/useSticky';
 
 function App() {
 	const { sticky, stickyRef } = useSticky();
+
 	return (
 		<div className='App'>
 			<Navbar />
@@ -23,7 +24,7 @@ function App() {
 					<PageContent />
 				</div>
 			</main>{' '}
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	);
 }

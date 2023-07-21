@@ -45,6 +45,8 @@ color: #326771
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
+
+  z-index: 1;
 }
 
 .App-link {

@@ -1,8 +1,8 @@
 import React from 'react';
-import './PageContent.css';
+import '../styles/Pricing.css';
 import Card from './Card.js';
 
-export default function PageContent() {
+export default function Pricing() {
 	return (
 		<main className='Pricing-all'>
 			<Card />

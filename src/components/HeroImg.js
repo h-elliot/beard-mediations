@@ -7,7 +7,7 @@ export default function HeroImg() {
 			{/* <h1 className='Hero-img-text'>Page Title</h1> */}
 			<img
 				src={require('../images/scalesofjustice_trnsp.png')}
-				alt='Landscape with a river, mountains, and stars.'
+				alt='Statue of Truth holding the Scales of Justice.'
 				className='Hero-img-img'
 			/>
 		</div>

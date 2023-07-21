@@ -9,17 +9,18 @@
 	/* justify-content: space-between; */
 	align-items: center;
 	transition: all .7s ease-in;
-	background-color: #32292F;
-	/* align-content: stretch; */
-	/* font-size: calc(6px + 2vmin); */
+	background-color: #E7E1E0;
+
   	position: sticky; 
 	top: 0;
+
+	z-index: 5;
 
 	
 }
 .Header-text {
 	font-family: 'Raleway', sans-serif;
-	color: #E7E1E0;
+	color: #32292F;
 	max-height: 3vh;
 	display: flex;
 	flex: row nowrap;
@@ -52,9 +53,9 @@
 	margin-right: 5%;
 	
 	font-size: calc(8px + 2vmin);
-	color: #E7E1E0;
+	color: #32292F;
 }
 
 .Header-text a:hover {
-	color: #BBC8D9;
+	color: #326771;
 }
