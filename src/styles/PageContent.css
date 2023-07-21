@@ -2,13 +2,13 @@
 
 .Page-content-all {
 	flex-basis: auto;
-	width: 60%;
+	width: 55%;
 	left: 0;
 	overflow: hidden;
 	margin: 1vh;
 	padding: 1.5%;
 
-	z-index: 3;
+	z-index: 4;
 }
 
 .Page-content-text {
@@ -26,6 +26,7 @@
 	padding: 0 5%;
 	margin: 0;
 	margin-top: 2%;
+		margin-right: 6%;
 	max-height: 12%;
 }
 
