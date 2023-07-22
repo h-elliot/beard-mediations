@@ -17,7 +17,7 @@ color: #326771
 *, html, body {
   height: 100vh;
   color: #32292F;
-  overflow: hidden;
+  overflow: auto;
   font-family: 'Tajawal', sans-serif;
 }
 
