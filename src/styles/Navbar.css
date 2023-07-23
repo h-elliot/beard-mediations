@@ -44,7 +44,7 @@
 
 }
 
-.Header-text a {
+.Header-text h4 {
 	height: 100%;;
 
 	text-decoration: none;
@@ -53,8 +53,11 @@
 	
 	font-size: calc(8px + 2vmin);
 	color: #32292F;
+
+	padding-bottom: 3px;
 }
 
-.Header-text a:hover {
+.Header-text h4:hover {
 	color: #326771;
+	cursor: pointer;
 }

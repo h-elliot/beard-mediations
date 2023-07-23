@@ -1,7 +1,6 @@
 import React from 'react';
 // import { useState } from 'react';
 import '../styles/Navbar.css';
-import MenuButton from './MenuButton';
 
 export default function Navbar() {
 	// const [open, setOpen] = React.useState(false);

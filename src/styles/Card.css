@@ -10,8 +10,6 @@
 	flex-flow: row nowrap;
 	justify-content: space-evenly;
 
-	/* padding: 2%; */
-
 	overflow: hidden;
 
 }
@@ -31,7 +29,6 @@
 	flex-flow: column nowrap;
 	justify-content: space-evenly;
 
-	/* max-height: 100%; */
 	padding: 0 2%;
 	margin-right: 5%;
 	max-height:fit-content;
@@ -41,8 +38,6 @@
 
 .Card-title {
 	text-align: left;
-	/* max-height: 10%;
-	padding: 3% 0; */
 	margin: 0;
 	font-size: calc(10pt + 2vmin);
 }
