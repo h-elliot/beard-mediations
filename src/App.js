@@ -1,8 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import MenuButton from './components/MenuButton';
 import PageContent from './components/PageContent';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import HeroImg from './components/HeroImg';
 import useSticky from './hooks/useSticky';
 
@@ -12,7 +11,6 @@ function App() {
 	return (
 		<div className='App'>
 			<Navbar />
-			<MenuButton />
 			<div
 				style={{
 					height: sticky ? `${stickyRef.current?.clientHeight}px` : '0px',

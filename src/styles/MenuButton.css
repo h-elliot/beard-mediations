@@ -1,4 +1,4 @@
-.Menu-Button button {
+/* .Menu-Button button {
 	background: #32292F;
 	color: #E7E1E0;
 	position: absolute;
@@ -16,9 +16,23 @@
 	font-size: calc(7pt + 2vmin);
 
 	padding-top: 3px;
+} */
+
+.Menu-Button h4 {
+	z-index: 10;
+	overflow: hidden;
+
+	border: none;
+	border-radius: 50%;
+	text-align: center;
+	text-decoration: none;
+	font-size: calc(7pt + 2vmin);
+
+	/* margin-right: ; */
+
 }
 
-.Menu-Button button:hover {
+.Menu-Button h4:hover {
 	background: #BBC8D9;
 	color: #32292F;
 }

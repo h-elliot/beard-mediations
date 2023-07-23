@@ -1,6 +1,7 @@
 import React from 'react';
 // import { useState } from 'react';
 import '../styles/Navbar.css';
+import MenuButton from './MenuButton';
 
 export default function Navbar() {
 	// const [open, setOpen] = React.useState(false);
@@ -14,9 +15,8 @@ export default function Navbar() {
 				Beard Mediations, LLC.
 			</h3>
 			<div className='Header-text' id='Header-text-links'>
-				{/* <a href='http://localhost:3000/'>About</a> */}
-				<a href='http://localhost:3000/'>Pricing</a>
-				{/* <a href='http://localhost:3000/'>Credits</a> */}
+				{/* <MenuButton /> */}
+				<h4>≡</h4>
 			</div>
 		</header>
 	);

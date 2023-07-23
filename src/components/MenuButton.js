@@ -4,7 +4,7 @@ import '../styles/MenuButton.css';
 export default function MenuButton() {
 	return (
 		<div className='Menu-Button'>
-			<button>≡</button>
+			<h4>≡</h4>
 		</div>
 	);
 }
