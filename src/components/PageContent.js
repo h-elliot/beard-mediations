@@ -4,15 +4,15 @@ import Card from './Card.js';
 
 export default function PageContent() {
 	return (
-		<main className='Page-content-all'>
+		<div className='Page-content-all'>
 			<Card />
-			<article className='Page-content-article'>
-				<h3>
+			<div className='Page-content-text'>
+				<h3 className='Page-content-title'>
 					Whether you represent the condemnor or the landowner, I look forward
 					for the opportunity to help you reach a successful outcome in your
 					case.
 				</h3>
-				<p className='Page-content-text'>
+				<p className='Page-content-p'>
 					I have been a civil trial attorney specializing in eminent domain
 					litigation for over 30 years, joining the Dawson & Sodd law firm right
 					out of Baylor Law School in 1989. Litigation has always been my focus.
@@ -30,7 +30,7 @@ export default function PageContent() {
 					essential to a successful outcome – and it is that same philosophy I
 					will bring to the table as a mediator.
 				</p>
-			</article>
-		</main>
+			</div>
+		</div>
 	);
 }

@@ -1,0 +1,24 @@
+.Menu-Button button {
+	background: #32292F;
+	color: #E7E1E0;
+	position: absolute;
+	top: 2.5vh;
+	right: 5vh;
+	height: 5vh;
+	width: 5vh;
+	z-index: 10;
+	overflow: hidden;
+
+	border: none;
+	border-radius: 50%;
+	text-align: center;
+	text-decoration: none;
+	font-size: calc(7pt + 2vmin);
+
+	padding-top: 3px;
+}
+
+.Menu-Button button:hover {
+	background: #BBC8D9;
+	color: #32292F;
+}
