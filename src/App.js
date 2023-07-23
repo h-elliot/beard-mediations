@@ -1,7 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import PageContent from './components/PageContent';
-// import Footer from './components/Footer';
 import HeroImg from './components/HeroImg';
 import useSticky from './hooks/useSticky';
 
@@ -24,7 +23,6 @@ function App() {
 					<PageContent />
 				</div>
 			</main>{' '}
-			{/* <Footer /> */}
 		</div>
 	);
 }
