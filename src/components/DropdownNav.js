@@ -4,13 +4,13 @@ import '../styles/DropdownNav.css';
 export default function DropdownNav() {
 	// Dropdown navigation
 	//sets default state to closed
-	const [menuOpen, setMenuOpen] = React.useState(false);
+	// const [menuOpen, setMenuOpen] = React.useState(false);
 
-	const handleMenuOpen = () => {
-		// set menuOpen to its opposite state
-		setMenuOpen(!menuOpen);
-		console.log('Menu Button clicked.');
-	};
+	// const handleMenuOpen = () => {
+	// 	// set menuOpen to its opposite state
+	// 	setMenuOpen(!menuOpen);
+	// 	console.log('Menu Button clicked.');
+	// };
 
 	return (
 		<div className='dropdown'>
