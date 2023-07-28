@@ -1,29 +1,54 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/DropdownNav.css';
-import (state, useState) from React;
 
 export default function DropdownNav() {
 	// Dropdown navigation
-	  const [open, setOpen] = React.useState(false);
+	//sets default state to closed
+	const [menuOpen, setMenuOpen] = React.useState(false);
 
-		const handleOpen = () => {
-			setOpen(!open);
-		};
+	const handleMenuOpen = () => {
+		// set menuOpen to its opposite state
+		setMenuOpen(!menuOpen);
+		console.log('Menu Button clicked.');
+	};
 
-		return (
-			<div className='dropdown'>
-				<button onClick={handleOpen}>Dropdown</button>
-				{open ? (
-					<ul className='menu'>
-						<li className='menu-item'>
-							<button>Menu 1</button>
-						</li>
-						<li className='menu-item'>
-							<button>Menu 2</button>
-						</li>
-					</ul>
-				) : null}
-				{open ? <div>Is Open</div> : <div>Is Closed</div>}
-			</div>
-		);
+	return (
+		<div className='dropdown'>
+			{/* click the menu button and activate the handleMenuOpen function */}
+			<button onClick={handleMenuOpen}>Dropdown</button>
+			{/* if the menu is open... */}
+			{menuOpen ? (
+				<ul className='menu'>
+					<li className='menu-item' id='menu-item-1'>
+						<button>Pricing</button>
+					</li>
+					<li className='menu-item' id='menu-item-2'>
+						<button>Credits</button>
+					</li>
+				</ul>
+			) : // otherwise, show nothing
+			null}
+			{/* styles inline? */}
+			<style jsx>
+				{`
+				.dropdown{
+					width: 100%;
+					height 50px;
+				}
+			
+				.dropdown ul{
+					display: flex;
+					flex-wrap: wrap;
+					float: right;
+					margin: 20 0px;
+					padding: 0 25px;
+				}
+
+				.dropdown ul li{
+					list-style-type: none;
+					padding-right: 10px;
+			`}
+			</style>
+		</div>
+	);
 }
