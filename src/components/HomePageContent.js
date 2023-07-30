@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/PageContent.css';
+import '../styles/HomePageContent.css';
 import Card from './Card.js';
 
 export default function PageContent() {

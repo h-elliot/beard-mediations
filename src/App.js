@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import PageContent from './components/PageContent';
+import HomePageContent from './components/HomePageContent';
 import HeroImg from './components/HeroImg';
 import useSticky from './hooks/useSticky';
 
@@ -20,7 +20,7 @@ function App() {
 					<HeroImg />
 				</div>
 				<div className='Page-Content'>
-					<PageContent />
+					<HomePageContent />
 				</div>
 			</main>{' '}
 		</div>

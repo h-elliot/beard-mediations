@@ -1,5 +1,4 @@
-import React from 'react';
-// import { useState } from 'react';
+import React, { useState } from 'react';
 import '../styles/Navbar.css';
 
 export default function Navbar() {
@@ -9,14 +8,20 @@ export default function Navbar() {
 		setOpen(!open);
 
 		return (
-			<header className='App-header'>
-				<h3 className='Header-text' id='Header-title'>
-					Beard Mediations, LLC.
-				</h3>
-				<div className='Header-text' id='Header-text-links'>
-					<h4>≡</h4>
-				</div>
-			</header>
+			<div>
+				<header className='App-header'>
+					<h3 className='Header-text' id='Header-title'>
+						Beard Mediations, LLC.
+					</h3>
+					<div className='Header-text' id='Header-text-links'>
+						<h4 onClick={handleMenuOpen}>≡</h4>
+					</div>
+				</header>
+
+				<style jsx>{`
+					// styles inline
+				`}</style>
+			</div>
 		);
 	};
 }
