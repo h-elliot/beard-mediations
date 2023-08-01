@@ -3,7 +3,7 @@
 .Pricing-all {
 	flex-basis: auto;
 	height: fit-content;
-	width: 55%;
+	/* width: 55%; */
 	left: 0;
 	overflow: hidden;
 	margin: 1vh;

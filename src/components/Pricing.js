@@ -5,10 +5,11 @@ import Card from './Card.js';
 export default function Pricing() {
 	return (
 		<main className='Pricing-all'>
-			<Card />
 			<article className='Pricing-article'>
 				<h3 className='Pricing-title'>Price List:</h3>
 				<ul className='Pricing-text'>
+					{' '}
+					{/* long */}
 					<li>Full day mediation: (9 AM to 5 PM) $1250 per party</li>
 					<li>Half day mediation: (9 AM to 1 PM) $750 per party</li>
 					<li>

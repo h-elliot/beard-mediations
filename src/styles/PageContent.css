@@ -1,0 +1,14 @@
+/* MAIN */
+
+.Page-content-all {
+	flex-basis: auto;
+	height:fit-content;
+	width: 55%;
+	left: 0;
+	overflow: hidden;
+	margin: 1vh;
+	margin-top: 7vh;
+	padding: 1.5%;
+
+	z-index: 4;
+}

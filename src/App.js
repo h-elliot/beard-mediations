@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
+import 'react-tabs/style/react-tabs.css';
 import './App.css';
 import Navbar from './components/Navbar';
-import HomePageContent from './components/HomePageContent';
-import Pricing from './components/Pricing';
+import PageContent from './components/PageContent';
 import HeroImg from './components/HeroImg';
 import useSticky from './hooks/useSticky';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
+// import Pricing from './components/Pricing';
+// import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 function App() {
 	const { sticky, stickyRef } = useSticky();
@@ -30,25 +30,11 @@ function App() {
 				</div>
 				<div className='Page-Content'>
 					{/* first version, static page: */}
-					{/* <HomePageContent /> */}
+					<PageContent />
 					{/* ========== */}
 					{/* second version, using state: (unexpected outcome, shows Pricing be default?) */}
 					{/* {homePage ? <HomePageContent /> : <Pricing />} */}
-					{/* ========== */}
-					{/* third version, using Tabs: */}
-					<Tabs>
-						<TabList>
-							<Tab>About</Tab>
-							<Tab>Pricing</Tab>
-						</TabList>
-
-						<TabPanel>
-							<HomePageContent />
-						</TabPanel>
-						<TabPanel>
-							<Pricing />
-						</TabPanel>
-					</Tabs>
+					{/* third version uses Tabs in components */}
 				</div>
 			</main>{' '}
 		</div>
