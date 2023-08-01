@@ -10,11 +10,11 @@ import 'react-tabs/style/react-tabs.css';
 
 function App() {
 	const { sticky, stickyRef } = useSticky();
-	const { homePage, setHomePage } = useState(false);
+	// const { homePage, setHomePage } = useState(false);
 
-	function changeHomePage() {
-		setHomePage(!homePage);
-	}
+	// function changeHomePage() {
+	// 	setHomePage(!homePage);
+	// }
 
 	return (
 		<div className='App'>
@@ -29,8 +29,26 @@ function App() {
 					<HeroImg />
 				</div>
 				<div className='Page-Content'>
+					{/* first version, static page: */}
 					{/* <HomePageContent /> */}
-					{homePage ? <HomePageContent /> : <Pricing />}
+					{/* ========== */}
+					{/* second version, using state: (unexpected outcome, shows Pricing be default?) */}
+					{/* {homePage ? <HomePageContent /> : <Pricing />} */}
+					{/* ========== */}
+					{/* third version, using Tabs: */}
+					<Tabs>
+						<TabList>
+							<Tab>About</Tab>
+							<Tab>Pricing</Tab>
+						</TabList>
+
+						<TabPanel>
+							<HomePageContent />
+						</TabPanel>
+						<TabPanel>
+							<Pricing />
+						</TabPanel>
+					</Tabs>
 				</div>
 			</main>{' '}
 		</div>
