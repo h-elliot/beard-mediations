@@ -8,7 +8,7 @@ import useSticky from './hooks/useSticky';
 
 function App() {
 	const { sticky, stickyRef } = useSticky();
-	const { homePage, setHomePage } = useState(true);
+	const { homePage, setHomePage } = useState(false);
 
 	function changeHomePage() {
 		setHomePage(!homePage);
@@ -27,6 +27,7 @@ function App() {
 					<HeroImg />
 				</div>
 				<div className='Page-Content'>
+					{/* <HomePageContent /> */}
 					{homePage ? <HomePageContent /> : <Pricing />}
 				</div>
 			</main>{' '}

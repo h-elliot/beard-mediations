@@ -6,6 +6,7 @@ export default function Navbar() {
 
 	const handleOpen = () => {
 		setOpen(!open);
+		console.log('setOpen() called');
 
 		return (
 			<div>

@@ -1,0 +1,39 @@
+/* MAIN */
+
+.Pricing-all {
+	flex-basis: auto;
+	height: fit-content;
+	width: 55%;
+	left: 0;
+	overflow: hidden;
+	margin: 1vh;
+	margin-top: 7vh;
+	padding: 1.5%;
+
+	z-index: 4;
+}
+
+.Pricing-text {
+	margin: 0;
+	padding: 0 5vh;
+	text-align: left;
+	font-size: calc(9pt + 1vmin);
+
+	letter-spacing: 1px;
+	line-height: 27px;
+}
+
+.Page-content-title h3 {
+	font-size: calc(7pt + 2vmin);
+	padding: 0 5%;
+	margin: 0;
+	margin-top: 2%;
+	margin-right: 6%;
+	max-height: 12%;
+}
+
+.Page-content-p ul {
+	padding: 0 5%;
+	margin-right: 6%;
+
+}

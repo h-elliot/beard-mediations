@@ -15,9 +15,9 @@ export default function DropdownNav() {
 	return (
 		<div className='dropdown'>
 			{/* click the menu button and activate the handleMenuOpen function */}
-			<button onClick={handleMenuOpen}>Dropdown</button>
+			{/* <button onClick={handleMenuOpen}>Dropdown</button> */}
 			{/* if the menu is open... */}
-			{menuOpen ? (
+			{/* {menuOpen ? (
 				<ul className='menu'>
 					<li className='menu-item' id='menu-item-1'>
 						<button>Pricing</button>
@@ -27,7 +27,7 @@ export default function DropdownNav() {
 					</li>
 				</ul>
 			) : // otherwise, show nothing
-			null}
+			null} */}
 			{/* styles inline? */}
 			<style jsx>
 				{`
