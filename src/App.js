@@ -5,6 +5,8 @@ import HomePageContent from './components/HomePageContent';
 import Pricing from './components/Pricing';
 import HeroImg from './components/HeroImg';
 import useSticky from './hooks/useSticky';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 
 function App() {
 	const { sticky, stickyRef } = useSticky();
