@@ -1,11 +1,14 @@
+import React, { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import HomePageContent from './components/HomePageContent';
+import Pricing from './components/Pricing';
 import HeroImg from './components/HeroImg';
 import useSticky from './hooks/useSticky';
 
 function App() {
 	const { sticky, stickyRef } = useSticky();
+	const { homePage, setHomePage } = useState(true);
 
 	return (
 		<div className='App'>
@@ -20,7 +23,7 @@ function App() {
 					<HeroImg />
 				</div>
 				<div className='Page-Content'>
-					<HomePageContent />
+					{homePage ? <HomePageContent /> : <Pricing />}
 				</div>
 			</main>{' '}
 		</div>
