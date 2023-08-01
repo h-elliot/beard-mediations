@@ -14,7 +14,7 @@ export default function Navbar() {
 						Beard Mediations, LLC.
 					</h3>
 					<div className='Header-text' id='Header-text-links'>
-						<h4 onClick={handleMenuOpen}>≡</h4>
+						<h4 onClick={handleOpen}>≡</h4>
 					</div>
 				</header>
 

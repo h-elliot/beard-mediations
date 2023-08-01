@@ -10,6 +10,10 @@ function App() {
 	const { sticky, stickyRef } = useSticky();
 	const { homePage, setHomePage } = useState(true);
 
+	function changeHomePage() {
+		setHomePage(!homePage);
+	}
+
 	return (
 		<div className='App'>
 			<Navbar />
