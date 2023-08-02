@@ -21,6 +21,8 @@ color: #326771
   color: #32292F;
   overflow: hidden;
   font-family: 'Tajawal', sans-serif;
+  
+  transition: ease all 1s;
 }
 
 main {

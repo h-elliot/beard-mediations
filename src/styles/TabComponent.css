@@ -8,10 +8,15 @@
 
 .Tab-Titles {
 	padding: 2vh 5vh;
+
+	background: #96a3b5 ;
+	color: #32292F;
+	border-radius: 7px 7px 0 0;
 }
 
 .Tab-Titles:hover {
-	background: #96a3b5;
+	background: #E7E1E0;
+	color: #32292F;
 	border-radius: 7px 7px 0 0;
 }
 

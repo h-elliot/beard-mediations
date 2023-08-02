@@ -20,5 +20,15 @@
 .About-p p {
 	padding: 0 5%;
 	margin-right: 6%;
+	max-height: fit-content;
 
+	overflow: scroll;
+
+}
+
+@media screen and (max-width: 1336px) {
+
+	.About-text {
+		max-width: 90%;
+	}
 }

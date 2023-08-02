@@ -1,21 +1,8 @@
-/* MAIN */
-
-.Pricing-all {
-	flex-basis: auto;
-	height: fit-content;
-	left: 0;
-	overflow: hidden;
-	margin: 1vh;
-	padding: 1.5%;
-
-	z-index: 4;
-}
-
 .Pricing-text {
 	margin: 0;
 	padding: 0 5vh;
 	text-align: left;
-	font-size: calc(9pt + 1vmin);
+	/* font-size: calc(9pt + 1vmin); */
 
 	letter-spacing: 1px;
 	line-height: 27px;
@@ -34,4 +21,12 @@
 	padding: 0 5%;
 	margin-right: 6%;
 
+}
+
+@media screen and (max-width: 1336px) {
+
+	.Pricing-text {
+		width: 95%;
+		max-width: 80vh;
+	}
 }
