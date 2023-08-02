@@ -7,9 +7,13 @@ import Pricing from './Pricing.js';
 export default function TabComponent() {
 	return (
 		<Tabs className='Tab-Container'>
-			<TabList className='Tab-Titles'>
-				<Tab className='Tab-1'>About</Tab>
-				<Tab className='Tab-2'>Pricing</Tab>
+			<TabList className='Tab-Titles-container'>
+				<Tab className='Tab-Titles' id='Tab-1'>
+					About
+				</Tab>
+				<Tab className='Tab-Titles' id='Tab-2'>
+					Pricing
+				</Tab>
 			</TabList>
 
 			<TabPanel className='Tab-Content'>

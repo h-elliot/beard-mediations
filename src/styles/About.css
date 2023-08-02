@@ -2,14 +2,14 @@
 	margin: 0;
 	padding: 0 5vh;
 	text-align: left;
-	font-size: calc(9pt + 1vmin);
+	/* font-size: calc(9pt + 1vmin); */
 
 	letter-spacing: 1px;
 	line-height: 27px;
 }
 
 .About-title h3 {
-	font-size: calc(7pt + 2vmin);
+	/* font-size: calc(7pt + 2vmin); */
 	padding: 0 5%;
 	margin: 0;
 	margin-top: 2%;

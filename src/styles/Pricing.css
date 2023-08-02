@@ -3,11 +3,9 @@
 .Pricing-all {
 	flex-basis: auto;
 	height: fit-content;
-	/* width: 55%; */
 	left: 0;
 	overflow: hidden;
 	margin: 1vh;
-	margin-top: 7vh;
 	padding: 1.5%;
 
 	z-index: 4;
@@ -24,7 +22,7 @@
 }
 
 .Page-content-title h3 {
-	font-size: calc(7pt + 2vmin);
+	/* font-size: calc(7pt + 2vmin); */
 	padding: 0 5%;
 	margin: 0;
 	margin-top: 2%;
