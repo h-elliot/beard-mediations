@@ -6,6 +6,8 @@
 
 	letter-spacing: 1px;
 	line-height: 27px;
+
+	overflow: scroll !important;
 }
 
 .About-title h3 {
@@ -20,9 +22,9 @@
 .About-p p {
 	padding: 0 5%;
 	margin-right: 6%;
-	max-height: fit-content;
+	/* max-height: fit-content; */
 
-	overflow: scroll;
+	
 
 }
 
