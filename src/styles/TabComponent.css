@@ -18,6 +18,11 @@
 	background: #E7E1E0;
 	color: #32292F;
 	border-radius: 7px 7px 0 0;
+	cursor: pointer;
+}
+
+Tab:hover {
+	cursor: pointer;
 }
 
 .react-tabs__tab--selected {

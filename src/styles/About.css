@@ -22,7 +22,6 @@
 .About-p p {
 	padding: 0 5%;
 	margin-right: 6%;
-	/* max-height: fit-content; */
 
 	
 
@@ -32,5 +31,16 @@
 
 	.About-text {
 		max-width: 90%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+	.About-text {
+		max-width: 90%;
+	}
+	.About-p {
+		/*? not working */
+		font-size: calc(6pt + 1vmin);
 	}
 }

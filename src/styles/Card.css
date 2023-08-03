@@ -64,3 +64,33 @@
 	list-style-type: none;
 	text-align: left;
 }
+
+@media screen and (max-width: 800px) {
+
+	.Card-text {
+		font-size: calc(6pt + 1vmin);
+	}
+
+	.Card-title {
+		font-size: calc(8pt + 1vmin);
+	}
+
+	.Card-subtitle {
+		font-size: calc(6pt + 1vmin);
+	}
+
+	.Profile-contact ul {
+		max-height: 60%;
+	}
+
+	.Profile-contact li {
+		font-size: calc(7pt + 1vmin);
+	}
+
+	.Profile-image {
+		border: 2px solid #32292F;
+		margin-top: auto;
+		margin-bottom: auto;
+
+	}
+}
