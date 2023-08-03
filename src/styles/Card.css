@@ -69,22 +69,26 @@
 
 	.Card-text {
 		font-size: calc(6pt + 1vmin);
+		padding: 0 2.5% ;
 	}
 
 	.Card-title {
 		font-size: calc(8pt + 1vmin);
 	}
-
+	
 	.Card-subtitle {
 		font-size: calc(6pt + 1vmin);
+		padding: 0;
 	}
 
 	.Profile-contact ul {
 		max-height: 60%;
+		padding: 0;
 	}
 
 	.Profile-contact li {
 		font-size: calc(7pt + 1vmin);
+		padding: 0;
 	}
 
 	.Profile-image {

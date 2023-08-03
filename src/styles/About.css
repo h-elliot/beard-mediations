@@ -38,9 +38,14 @@
 
 	.About-text {
 		max-width: 90%;
+		line-height: 2vh;
 	}
+
+	.About-title {
+		font-size: calc(7pt + 1vmin);
+	}
+
 	.About-p {
-		/*? not working */
 		font-size: calc(6pt + 1vmin);
 	}
 }
