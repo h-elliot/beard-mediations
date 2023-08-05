@@ -5,25 +5,19 @@
 	/* font-size: calc(9pt + 1vmin); */
 
 	letter-spacing: 1px;
-	line-height: 27px;
-
+	line-height: 3vmin;
 }
 
-.About-title h3 {
+.About-title {
 	/* font-size: calc(7pt + 2vmin); */
-	padding: 0 5%;
-	margin: 0;
-	margin-top: 2%;
-	margin-right: 6%;
+	margin: 3vmin 6vmin 0 0;
 	max-height: 12%;
 }
 
-.About-p p {
-	padding: 0 5%;
-	margin-right: 6%;
+.About-p {
 	height: 70vh;
 	
-	overflow: scroll !important;
+	overflow-y: scroll !important;
 	
 
 }
@@ -38,15 +32,22 @@
 @media screen and (max-width: 800px) {
 
 	.About-text {
-		max-width: 90%;
 		line-height: 2vh;
+
+		overflow-y: scroll;
 	}
 
 	.About-title {
-		font-size: calc(7pt + 1vmin);
+		margin: 6vmin 0 0 0;
+		font-size: calc(8pt + 1vmin);
+		line-height: 5vmin;
+		
 	}
 
 	.About-p {
-		font-size: calc(6pt + 1vmin);
+		height: 50vh;
+		font-size: calc(8pt + 1vmin);
+		line-height: 5vmin;
+		margin: 6vmin 0 0 0;
 	}
 }

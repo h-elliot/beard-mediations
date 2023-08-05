@@ -7,11 +7,11 @@
 	line-height: 30px;
 }
 
-.Pricing-title h3 {
+.Pricing-title {
 	max-height: 12%;
 }
 
-.Pricing-p {
+.Pricing-text {
 	padding: 0 10%;
 	margin-right: 6%;
 
@@ -33,17 +33,16 @@
 		letter-spacing: auto;
 	}
 	
-	.Pricing-title h3 {
+	.Pricing-title {
+		font-size: calc(8pt + 1vmin);
+
+
+	}
+
+	.Pricing-text {
+		max-width: 90%;
+		line-height: auto;
 		font-size: calc(7pt + 1vmin);
 	}
 
-	.Pricing-text ul {
-		max-width: 90%;
-		line-height: 2vh;
-		padding: 0vh;
-	}
-
-	.Pricing-text-item li{
-		font-size: calc(2pt + 1vmin);
-	}
 }
