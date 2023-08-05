@@ -9,7 +9,7 @@ export default function TabComponent() {
 		<Tabs className='Tab-Container'>
 			<TabList className='Tab-Titles-container'>
 				<Tab className='Tab-Titles' id='Tab-1'>
-					About
+					ABOUT
 				</Tab>
 				<Tab className='Tab-Titles' id='Tab-2'>
 					Pricing

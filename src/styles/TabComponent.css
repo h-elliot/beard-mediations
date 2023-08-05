@@ -1,13 +1,14 @@
 .Tab-Titles-container {
 	display: flex;
 	flex-flow: row nowrap;
-	justify-content: space-evenly;
+	justify-content: center;
 
 	margin-top: 2vh;
 }
 
 .Tab-Titles {
 	padding: 2vh 5vh;
+	margin: 0 4vh;
 
 	background: #96a3b5 ;
 	color: #32292F;
@@ -25,22 +26,41 @@ Tab:hover {
 	cursor: pointer;
 }
 
+
 .react-tabs__tab--selected {
 	background: #32292F;
 	color: #BBC8D9;
 	border-radius: 7px 7px 0 0;
+	max-width: 90%;
 }
 
 /* .Tab-content {
 	background: palevioletred;
 } */
 
+@media screen and (max-width: 1300px) {
+	.react-tabs__tab--selected {
+			max-width: 70%; /*todo make more compact*/
+	}
+	Tab:hover {
+		cursor: pointer;
+	}
+}
+
 @media screen and (max-width: 800px) {
 
 	.Tab-Titles-container {
-			margin-top: .5vh;
+		margin-top: 2vh;
 		}
 	.Tab-Titles {
 		padding: .6vh 3vh .2vh 3vh;
+	}
+	Tab  {
+		/* font-size: calc(2pt +1vmin); */
+		font-size: 72pt;
+	}
+	Tab:hover {
+		cursor: pointer;
+		/*? not working */
 	}
 }
