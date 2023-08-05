@@ -53,12 +53,14 @@ Tab:hover {
 		margin-top: 2vh;
 		}
 	.Tab-Titles {
-		padding: 1.6vh 3vh 1vh 3vh;
+		padding: 1.6vh 4vh 1vh 4vh;
 	}
-	Tab  {
-		/* font-size: calc(2pt +1vmin); */
-		font-size: 72pt;
-	}
+	/* 
+	Tab {
+		font-size: calc(2pt +1vmin);
+		? to test if it changes 
+		font-size: 72pt; 
+	} */
 	Tab:hover {
 		cursor: pointer;
 		/*? not working */

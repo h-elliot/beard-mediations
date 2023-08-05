@@ -1,19 +1,18 @@
 /* HEADER */
 
-.App-header {
+.Header-all {
 	max-height: 7vh;
 	width: 100%;
-	box-sizing: border-box;
 	display: flex;
 
 	align-items: center;
 	transition: all .7s ease-in;
 	background-color: #BBC8D9;
 
-  	position: absolute; 
-	top: 0;
+  	/* position: absolute;  */
+	/* top: 0; */
 
-	z-index: 5;
+	z-index: 10;
 
 	
 }
@@ -22,7 +21,6 @@
 	color: #32292F;
 	max-height: 3vh;
 	display: flex;
-	flex: row nowrap;
 	justify-content: space-around;
 	align-items: center;
 	
@@ -30,34 +28,28 @@
 
 #Header-title {
 	width: 50%;
-	
+	margin: 0;
 	font-size: calc(13px + 2vmin);	
 }
 
-#Header-text-links {
-	height: 100%;
-	width: 100%;
-	display: flex;
-	flex: row nowrap;
-	justify-content: flex-end;
-	align-items: center;
 
+@media screen and (max-width: 1300px) {
+	.Header-all {
+		max-height: 7vh;
+	}
+
+	.Header-text {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+
+	}
+
+	#Header-title {
+		width: 80%;
+		margin: 0;
+		font-size: calc(11px + 2vmin);
+	}
 }
 
-.Header-text h4 {
-	height: 100%;;
-
-	text-decoration: none;
-
-	margin-right: 5%;
-	
-	font-size: calc(8px + 2vmin);
-	color: #32292F;
-
-	padding-bottom: 3px;
-}
-
-.Header-text h4:hover {
-	color: #326771;
-	cursor: pointer;
-}
+@media screen and (max-width: 800px) {}

@@ -45,6 +45,8 @@ main {
     background: -webkit-linear-gradient(180deg, hsla(10, 9%, 87%, 1) 0%, hsla(225, 10%, 84%, 1) 52%, hsla(214, 28%, 79%, 1) 100%);
   
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#E2DDDC", endColorstr="#D3D5DB", GradientType=1);
+
+    z-index: -100;
     
 }
 
@@ -56,7 +58,19 @@ main {
   z-index: 1;
 }
 
+.Navbar-wrapper {
+  z-index: 100;
+    position: absolute;  
+    top: 0;
+}
 
+.Hero-Img {
+  z-index: 0;
+}
+
+.Page-Content {
+  z-index: 1;
+}
 
 /* Universal styling */
 .App-link {
