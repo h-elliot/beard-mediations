@@ -31,9 +31,12 @@ Tab:hover {
 	border-radius: 7px 7px 0 0;
 }
 
+/* .Tab-content {
+	background: palevioletred;
+} */
+
 @media screen and (max-width: 800px) {
 
-	/*todo add content  */
 	.Tab-Titles-container {
 			margin-top: .5vh;
 		}
