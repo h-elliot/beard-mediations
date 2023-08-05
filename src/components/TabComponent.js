@@ -12,7 +12,7 @@ export default function TabComponent() {
 					ABOUT
 				</Tab>
 				<Tab className='Tab-Titles' id='Tab-2'>
-					Pricing
+					PRICING
 				</Tab>
 			</TabList>
 
