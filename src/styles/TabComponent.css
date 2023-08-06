@@ -7,7 +7,7 @@
 }
 
 .Tab-Titles {
-	padding: 2vh 5vh;
+	padding: 1.3vh 5vh 1vh 5vh;
 	margin: 0 4vh;
 
 	background: #96a3b5 ;
@@ -34,14 +34,11 @@ Tab:hover {
 	max-width: 90%;
 }
 
-/* .Tab-content {
-	background: palevioletred;
-} */
-
 @media screen and (max-width: 1300px) {
 	.react-tabs__tab--selected {
-			max-width: 70%; /*todo make more compact*/
+			max-width: 70%; 
 	}
+
 	Tab:hover {
 		cursor: pointer;
 	}
@@ -54,13 +51,9 @@ Tab:hover {
 		}
 	.Tab-Titles {
 		padding: 1.6vh 4vh 1vh 4vh;
+		font-size: small;
 	}
-	/* 
-	Tab {
-		font-size: calc(2pt +1vmin);
-		? to test if it changes 
-		font-size: 72pt; 
-	} */
+
 	Tab:hover {
 		cursor: pointer;
 		/*? not working */
