@@ -7,14 +7,30 @@
 	line-height: 30px;
 }
 
+.Pricing-wrapper {
+	height: 47vh;
+	overflow-y: scroll !important;
+	padding: 2vmin;
+}
+
 .Pricing-title {
-	max-height: 12%;
+	height: min-content;
+	margin: 0;
 }
 
 .Pricing-text {
+	height: min-content;
+
 	padding: 0 10%;
 	margin-right: 6%;
+}
 
+#Pricing-text-1 {
+	padding-bottom: 2vh;
+}
+
+#Pricing-text-2 {
+	line-height: 23px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -27,7 +43,14 @@
 
 @media screen and (max-width: 800px) {
 
+	.Pricing-wrapper {
+			height: 55vh;
+			overflow-y: scroll !important;
+			padding: 2vmin;
+		}
+
 	.Pricing-text {
+		height: min-content;
 		max-width: 90%;
 		line-height: 2.5vh;
 		letter-spacing: auto;
@@ -35,14 +58,19 @@
 	
 	.Pricing-title {
 		font-size: calc(8pt + 1vmin);
+		line-height: 6vmin;
 
 
 	}
 
 	.Pricing-text {
 		max-width: 90%;
-		line-height: auto;
 		font-size: calc(7pt + 1vmin);
+		line-height: normal;
 	}
+
+		#Pricing-text-2 {
+			line-height: normal;
+		}
 
 }

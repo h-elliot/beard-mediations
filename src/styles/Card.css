@@ -1,8 +1,8 @@
 /* WHOLE CARD */
 
 .Page-card {
+	height: fit-content;
 	max-height: 23vh;
-	/* margin: 0; */
 
 	display: flex;
 	flex-flow: row nowrap;
@@ -13,6 +13,7 @@
 }
 
 .Profile-image {
+	height: auto;
 	max-height: 21vh;
 	width: auto;
 	border-radius: 50%;
@@ -25,10 +26,11 @@
 .Card-text {
 	display: flex;
 	flex-flow: column nowrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
 
-	padding: 0 2%;
-	max-height:fit-content;
+	padding:  2%;
+	height: 100vh;
+	max-height: 21vh;
 
 	overflow: visible;
 }
@@ -37,6 +39,7 @@
 	text-align: left;
 	margin: 0;
 	font-size: calc(10pt + 2vmin);
+		height: fit-content;
 }
 
 .Card-subtitle {
@@ -44,17 +47,19 @@
 	font-weight: 300;
 	font-style: italic;
 	text-align: left;
-	max-height: 10vh;
+
+	height: fit-content;
 	padding: 3% 0;
 	margin: 0;
 	font-size: calc(8pt + 1vmin);
 }
 
 .Profile-contact ul {
-	max-height: 60%;
+	height: fit-content;
 }
 
 .Profile-contact li {
+	height: fit-content;
 	padding: 1%;
 	max-height: 25%;
 	font-size: calc(8pt + 1vmin);
@@ -67,6 +72,9 @@
 	.Card-text {
 		font-size: calc(6pt + 1vmin);
 		padding: 0 2.5% ;
+		height: fit-content;
+				margin-top: auto;
+					margin-bottom: auto;
 	}
 
 	.Card-title {
@@ -79,8 +87,8 @@
 	}
 
 	.Profile-contact ul {
-		max-height: 60%;
 		padding: 0;
+		height: min-content;
 
 	}
 

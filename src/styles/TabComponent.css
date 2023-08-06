@@ -4,11 +4,13 @@
 	justify-content: center;
 
 	margin-top: 2vh;
+	height: fit-content;
 }
 
 .Tab-Titles {
+
 	padding: 1.3vh 5vh 1vh 5vh;
-	margin: 0 4vh;
+	margin: 0 4vh 3vh 4vh;
 
 	background: #96a3b5 ;
 	color: #32292F;
@@ -52,10 +54,5 @@ Tab:hover {
 	.Tab-Titles {
 		padding: 1.6vh 4vh 1vh 4vh;
 		font-size: small;
-	}
-
-	Tab:hover {
-		cursor: pointer;
-		/*? not working */
 	}
 }
