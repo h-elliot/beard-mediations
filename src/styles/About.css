@@ -1,6 +1,6 @@
 .About-text {
 	margin: 2vmin 0;
-	padding: 0 5vh;
+	padding: 0 3vh;
 	text-align: left;
 
 	letter-spacing: 1px;
@@ -17,22 +17,15 @@
 	line-height: 2.5vmin;
 
 }
-/* 
-@media screen and (max-width: 1300px) {
 
-	.About-text {
-		padding: 3vh 6vh;
-		max-width: fit-content;
-	}
-} */
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
 	.About-text {
 		line-height: 2vh;
 		padding: 0 3vh;
 		max-width: fit-content;
 		overflow-y: scroll;
+		height: min-content;
 	}
 
 	.About-title {

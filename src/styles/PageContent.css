@@ -1,24 +1,17 @@
 /* MAIN */
 
 .Page-content-all {
-	/* height: fit-content; */
 
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
-	margin: 1vh;
+	/* margin: 1vh; */
 	padding: 1.5%;
 
 }
 
-@media screen and (max-width: 1336px) {
-
-	.Page-content-all {
-		width: 95%;
-	}
-}
-
 @media screen and (max-width: 800px) {
+
 
 
 }

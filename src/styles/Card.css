@@ -26,7 +26,8 @@
 .Card-text {
 	display: flex;
 	flex-flow: column nowrap;
-	justify-content: space-between;
+	justify-content: center;
+	align-items: space-around;
 
 	padding:  2%;
 	height: 100vh;
@@ -38,8 +39,8 @@
 .Card-title {
 	text-align: left;
 	margin: 0;
-	font-size: calc(10pt + 2vmin);
-		height: fit-content;
+	height: auto;
+	padding: 1%;
 }
 
 .Card-subtitle {
@@ -48,23 +49,37 @@
 	font-style: italic;
 	text-align: left;
 
-	height: fit-content;
-	padding: 3% 0;
-	margin: 0;
+	height: auto;
+	padding: 0;
+	margin: 0 0 1% 0;
 	font-size: calc(8pt + 1vmin);
+
+	/* padding: 1%; */
 }
 
 .Profile-contact ul {
 	height: fit-content;
+
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+
+	/* padding: 1%; */
 }
 
 .Profile-contact li {
 	height: fit-content;
-	padding: 1%;
+	/* padding: 0; */
 	max-height: 25%;
 	font-size: calc(8pt + 1vmin);
 	list-style-type: none;
 	text-align: left;
+
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+
+	padding: .2%;
 }
 
 @media screen and (max-width: 800px) {
@@ -73,17 +88,16 @@
 		font-size: calc(6pt + 1vmin);
 		padding: 0 2.5% ;
 		height: fit-content;
-				margin-top: auto;
-					margin-bottom: auto;
+		margin-top: auto;
+		margin-bottom: auto;
 	}
 
 	.Card-title {
-		font-size: calc(8pt + 1vmin);
+		height: min-content
 	}
 	
 	.Card-subtitle {
-		font-size: calc(7pt + 1vmin);
-		padding: 0;
+		height: min-content
 	}
 
 	.Profile-contact ul {
@@ -104,10 +118,10 @@
 		margin-bottom: auto;
 
 	}
-}
 
-@media screen and (max-width: 800px) {
 	.Page-card {
 		margin: 0 2vh
 	}
 }
+
+@media screen and (max-width: 800px) {}
