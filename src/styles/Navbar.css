@@ -27,9 +27,9 @@
 }
 
 #Header-title {
-	width: 50%;
 	margin: 0;
 	font-size: calc(13px + 2vmin);	
+	padding: 0 8vmin
 }
 
 
@@ -46,7 +46,6 @@
 	}
 
 	#Header-title {
-		width: 80%;
 		margin: 0;
 		font-size: calc(11px + 2vmin);
 	}

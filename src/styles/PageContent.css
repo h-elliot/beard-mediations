@@ -5,7 +5,6 @@
 	width: 100%;
 	overflow: hidden;
 	margin: 1vh;
-	margin-top: 7vh;
 	padding: 1.5%;
 
 }
@@ -20,6 +19,6 @@
 @media screen and (max-width: 800px) {
 
 	.Page-content-all {
-		margin-top: 3vh;
+		/* margin-top: 3vh; */
 	}
 }

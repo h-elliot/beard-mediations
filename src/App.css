@@ -110,3 +110,18 @@ ul {
   margin: 0;
   padding: 0
 }
+
+@media screen and (max-width: 1300px) {}
+
+
+@media screen and (max-width: 800px) {
+
+  .Main-container {
+      display: flex;
+  }
+
+  .Hero-Img {
+    display: none;
+  }
+
+}

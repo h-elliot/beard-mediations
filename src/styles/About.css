@@ -2,18 +2,16 @@
 	margin: 2vmin 0;
 	padding: 0 5vh;
 	text-align: left;
-	/* font-size: calc(9pt + 1vmin); */
 
 	letter-spacing: 1px;
 }
 
 .About-title {
-	/* font-size: calc(7pt + 2vmin); */
 	margin: 0;
 }
 
 .About-p {
-	height: 40vh;
+	height: 30vh;
 	overflow-y: scroll !important;
 	line-height: 2.5vmin;
 
@@ -22,7 +20,6 @@
 @media screen and (max-width: 1300px) {
 
 	.About-text {
-		/*! width: 90% do not use */
 		padding: 3vh 6vh;
 		max-width: fit-content;
 	}
@@ -40,7 +37,6 @@
 	.About-title {
 		font-size: calc(8pt + 1vmin);
 		line-height: 5vmin;
-		/* margin: 1.5vmin 0 0 0; */
 		
 	}
 
