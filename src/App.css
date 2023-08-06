@@ -51,24 +51,50 @@ main {
 }
 
 .Main-container {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: [col1] 55% [col2] 45%;
+  grid-template-rows: [row1] 7vh  [row2] auto [row3] 6vh;
 
   z-index: 1;
 }
 
 .Navbar-wrapper {
+  grid-column-start: col1;
+  grid-column-end: span 2;
+  grid-row-start: row1;
+  grid-row-end: row1;
+
   z-index: 100;
 }
 
+.Page-Content {
+    grid-column-start: col1;
+    grid-column-end: col1;
+    grid-row-start: row2;
+    grid-row-end: row2;
+
+
+  /* height: 85%; */
+  z-index: 1;
+}
 .Hero-Img {
+  grid-column-start: col2;
+  grid-column-end: col2;
+  grid-row-start: row2;
+  grid-row-end: row2;
+
   z-index: 0;
 }
 
-.Page-Content {
-  z-index: 1;
+.Footer-wrapper {
+    grid-column-start: col1;
+    grid-column-end: span 2;
+    grid-row-start: row3;
+    grid-row-end: row3;
+    
+      z-index: 1;
 }
+
 
 /* Universal styling */
 .App-link {

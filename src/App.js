@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import PageContent from './components/PageContent';
 import HeroImg from './components/HeroImg';
+import Footer from './components/Footer';
 
 function App() {
 	return (
@@ -12,11 +13,14 @@ function App() {
 				<div className='Navbar-wrapper'>
 					<Navbar />
 				</div>
+				<div className='Page-Content'>
+					<PageContent />
+				</div>
 				<div className='Hero-Img'>
 					<HeroImg />
 				</div>
-				<div className='Page-Content'>
-					<PageContent />
+				<div className='Footer-wrapper'>
+					<Footer />
 				</div>
 			</main>{' '}
 		</div>
