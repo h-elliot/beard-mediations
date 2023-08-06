@@ -53,7 +53,7 @@ main {
 .Main-container {
   display: grid;
   grid-template-columns: [col1] 55% [col2] 45%;
-  grid-template-rows: [row1] 7vh  [row2] auto [row3] 6vh;
+  grid-template-rows: [row1] 7vh  [row2] auto [row3] 4vh;
 
   z-index: 1;
 }
@@ -117,8 +117,20 @@ ul {
 @media screen and (max-width: 800px) {
 
   .Main-container {
-      display: flex;
+    display: grid;
+    grid-template-columns: [col1] 55% [col2] 45%;
+    grid-template-rows: [row1] 7vh [row2]auto [row3] 4vh;
   }
+
+    .Page-Content {
+      grid-column-start: col1;
+      grid-column-end: span 2;
+      grid-row-start: row2;
+      grid-row-end: row2;
+  
+  
+      z-index: 1;
+    }
 
   .Hero-Img {
     display: none;

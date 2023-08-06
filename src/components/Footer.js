@@ -6,9 +6,22 @@ export default function Footer() {
 		<div>
 			<footer className='Footer-all'>
 				<ul className='Footer-text'>
-					<li>Credits here</li>
-					<li>And here</li>
-					<li> & here</li>
+					<li className='Footer-text-items' id='Credit-1'>
+						Code by <a href='hunter.e.canavan@gmail.com'>Rook Elliot</a>
+					</li>
+					<li className='Footer-text-items' id='Credit-2'>
+						Copyright 2023
+					</li>
+					<li className='Footer-text-items' id='Credit-3'>
+						Photo by{' '}
+						<a href='https://unsplash.com/@tingeyinjurylawfirm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
+							TILF
+						</a>{' '}
+						on{' '}
+						<a href='https://unsplash.com/photos/DZpc4UY8ZtY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
+							Unsplash
+						</a>
+					</li>
 				</ul>
 			</footer>
 		</div>
