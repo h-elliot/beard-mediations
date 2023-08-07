@@ -13,7 +13,7 @@ function App() {
 			<Helmet>
 				<meta charSet='utf-8' />
 				<title>Beard Mediations, LLC.</title>
-				<link rel='icon' href={require('favicon.ico')} />
+				<link rel='icon' href={require('./favicon.ico')} />
 			</Helmet>
 			<main className='Main-container'>
 				<div className='Navbar-wrapper'>
