@@ -15,13 +15,19 @@ export default function Navbar() {
 					Give me a call or email me to schedule your mediation.{' '}
 				</h5>
 				<ul className='Profile-contact'>
-					<li id='Contact-phone'>(903) 654-8380</li>
+					<li id='Contact-phone-direct'>
+						{' '}
+						<strong>Direct</strong> (903) 654-8380
+					</li>
+					<li id='Contact-phone-office'>
+						<strong>Office</strong> (903) 872-8181
+					</li>
 					<li id='Contact-email'>
 						<a href='cbeard64@beardmediationsllc.com'>
 							cbeard64@beardmediationsllc.com
 						</a>
 					</li>
-					<li>504 W. 2nd Avenue, Corsicana, TX 75110</li>
+					<li id='Contact-address'>504 W. 2nd Avenue, Corsicana, TX 75110</li>
 				</ul>
 			</div>
 		</div>

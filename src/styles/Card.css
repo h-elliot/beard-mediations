@@ -52,9 +52,8 @@
 	height: auto;
 	padding: 0;
 	margin: 0 0 1% 0;
-	font-size: calc(8pt + 1vmin);
+	font-size: calc(4pt + 1vmin);
 
-	/* padding: 1%; */
 }
 
 .Profile-contact ul {
@@ -64,12 +63,10 @@
 	flex-flow: column;
 	justify-content: space-evenly;
 
-	/* padding: 1%; */
 }
 
 .Profile-contact li {
 	height: fit-content;
-	/* padding: 0; */
 	max-height: 25%;
 	font-size: calc(8pt + 1vmin);
 	list-style-type: none;
@@ -80,6 +77,24 @@
 	justify-content: space-evenly;
 
 	padding: .2%;
+
+	font-size: calc(5pt + 1vmin);
+}
+
+#Contact-phone-direct {
+	line-height: normal;
+}
+
+#Contact-phone-office {
+	line-height: normal;
+}
+
+#Contact-email {
+	line-height: normal;
+}
+	
+#Contact-address {
+	line-height: normal;
 }
 
 @media screen and (max-width: 800px) {
@@ -93,11 +108,13 @@
 	}
 
 	.Card-title {
+		padding: 0;
 		height: min-content
 	}
 	
 	.Card-subtitle {
-		height: min-content
+		height: min-content;
+		font-size: small;
 	}
 
 	.Profile-contact ul {
@@ -107,21 +124,35 @@
 	}
 
 	.Profile-contact li {
-		font-size: calc(6pt + 1vmin);
 		padding: 0;
 		line-height: 4vmin;
+		font-size: small;
 	}
 
 	.Profile-image {
-		border: 2px solid #32292F;
+		border: 3px solid #32292F;
 		margin-top: auto;
 		margin-bottom: auto;
 
+	}
+
+	#Contact-phone-direct {
+		line-height: normal;
+	}
+
+	#Contact-phone-office {
+		line-height: normal;
+	}
+
+	#Contact-email {
+		line-height: normal;
+	}
+
+	#Contact-address {
+		line-height: normal;
 	}
 
 	.Page-card {
 		margin: 0 2vh
 	}
 }
-
-@media screen and (max-width: 800px) {}
