@@ -29,7 +29,7 @@
 	justify-content: center;
 	align-items: space-around;
 
-	padding:  2%;
+	padding: 2%;
 	height: 100vh;
 	max-height: 21vh;
 
@@ -92,7 +92,7 @@
 #Contact-email {
 	line-height: normal;
 }
-	
+
 #Contact-address {
 	line-height: normal;
 }
@@ -101,7 +101,7 @@
 
 	.Card-text {
 		font-size: calc(6pt + 1vmin);
-		padding: 0 2.5% ;
+		padding: 0 2.5%;
 		height: fit-content;
 		margin-top: auto;
 		margin-bottom: auto;
@@ -111,7 +111,7 @@
 		padding: 0;
 		height: min-content
 	}
-	
+
 	.Card-subtitle {
 		height: min-content;
 		font-size: small;
