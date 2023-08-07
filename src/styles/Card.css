@@ -21,8 +21,6 @@
 
 }
 
-/* CARD TEXT  */
-
 .Card-text {
 	display: flex;
 	flex-flow: column nowrap;
