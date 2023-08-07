@@ -40,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "Information about Beard Mediations, LLC.",
+  "engines": {
+    "node": "19.6.0"
   }
 }
