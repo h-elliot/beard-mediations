@@ -21,7 +21,7 @@ export default function Navbar() {
 							cbeard64@beardmediationsllc.com
 						</a>
 					</li>
-					<li>504 W. 2nd Avenue, 75110</li>
+					<li>504 W. 2nd Avenue, Corsicana, TX 75110</li>
 				</ul>
 			</div>
 		</div>
