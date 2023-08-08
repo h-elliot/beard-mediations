@@ -1,3 +1,7 @@
+.Pricing-all {
+	display: flex;
+}
+
 .Pricing-text {
 	margin: 0;
 	padding: 0 5vh;
@@ -14,12 +18,12 @@
 }
 
 .Pricing-title {
-	height: min-content;
+	/* height: min-content; */
 	margin: 0;
 }
 
 .Pricing-text {
-	height: min-content;
+	/* height: min-content; */
 
 	padding: 0 10%;
 	margin-right: 6%;
@@ -33,21 +37,13 @@
 	line-height: 23px;
 }
 
-@media screen and (max-width: 1200px) {
-
-	.Pricing-text {
-		width: 80%;
-		max-width: 80vh;
-	}
-}
-
 @media screen and (max-width: 800px) {
 
 	.Pricing-wrapper {
-			height: 55vh;
-			overflow-y: scroll !important;
-			padding: 2vmin;
-		}
+		height: 55vh;
+		overflow-y: scroll !important;
+		padding: 2vmin;
+	}
 
 	.Pricing-text {
 		height: min-content;
@@ -55,12 +51,10 @@
 		line-height: 2.5vh;
 		letter-spacing: auto;
 	}
-	
+
 	.Pricing-title {
 		font-size: calc(8pt + 1vmin);
 		line-height: 6vmin;
-
-
 	}
 
 	.Pricing-text {
@@ -69,8 +63,7 @@
 		line-height: normal;
 	}
 
-		#Pricing-text-2 {
-			line-height: normal;
-		}
-
+	#Pricing-text-2 {
+		line-height: normal;
+	}
 }

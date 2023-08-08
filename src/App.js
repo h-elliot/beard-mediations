@@ -1,5 +1,6 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import './App.css';
 import Navbar from './components/Navbar';
@@ -10,11 +11,13 @@ import Footer from './components/Footer';
 function App() {
 	return (
 		<div className='App'>
-			<Helmet>
-				<meta charSet='utf-8' />
-				<title>Beard Mediations, LLC.</title>
-				<link rel='icon' href={require('./favicon.ico')} />
-			</Helmet>
+			<HelmetProvider>
+				<Helmet>
+					<meta charSet='utf-8' />
+					<title>Beard Mediations, LLC.</title>
+					<link rel='icon' href={require('./favicon.ico')} />
+				</Helmet>
+			</HelmetProvider>
 			<main className='Main-container'>
 				<div className='Navbar-wrapper'>
 					<Navbar />
