@@ -16,6 +16,7 @@
 	background: #96a3b5 ;
 	color: #32292F;
 	border-radius: 7px 7px 0 0;
+	height: fit-content;
 }
 
 .Tab-Titles:hover {

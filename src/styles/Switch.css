@@ -4,4 +4,20 @@
 
 .Switch-Titles-container {
 	height: fit-content;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	
 }
+
+.Switch-Titles-container button {
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: small;
+}
+
+.Switch-Titles-container button:hover {}
+
+.Switch-Titles-container button:active {}

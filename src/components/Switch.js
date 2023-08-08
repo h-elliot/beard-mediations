@@ -5,12 +5,6 @@ import Pricing from './Pricing.js';
 
 export default function Switch() {
 	const [page, setPage] = useState(false);
-	console.log(page);
-
-	// function toggleSwitch() {
-	// 	setPage(!page);
-	// 	console.log('toggleSwitch(' + page + ')');
-	// }
 
 	function showAbout() {
 		setPage(false);
@@ -42,8 +36,6 @@ export default function Switch() {
 			<div className='Switch-page-container'>
 				<article className='Switch-page'>
 					{!page ? <About /> : <Pricing />}
-
-					{/* {!page ? <h1>About</h1> : <h1>Pricing</h1>} */}
 				</article>
 			</div>
 		</div>
