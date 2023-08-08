@@ -109,7 +109,7 @@ ul {
   padding: 0
 }
 
-button {
+button, h3 {
   height: fit-content;
 }
 

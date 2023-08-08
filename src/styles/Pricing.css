@@ -1,5 +1,6 @@
 .Pricing-all {
 	display: flex;
+	height: fit-content
 }
 
 .Pricing-text {

@@ -1,23 +1,26 @@
 import React, { useState } from 'react';
-// import '../styles/TabComponent.css';
+import '../styles/Switch.css';
 import About from './About.js';
 import Pricing from './Pricing.js';
 
 export default function Switch() {
 	const [page, setPage] = useState(false);
+	console.log(page);
 
-	function toggleSwitch() {
-		setPage(!page);
-	}
+	// function toggleSwitch() {
+	// 	setPage(!page);
+	// 	console.log('toggleSwitch(' + page + ')');
+	// }
 
 	function showAbout() {
 		setPage(false);
-		console.log('showAbout called');
+		console.log('showAbout called, page = ', page);
 	}
 
 	function showPricing() {
 		setPage(true);
-		console.log('showPricing called');
+
+		console.log('showPricing called, page = ', page);
 	}
 
 	return (
@@ -37,14 +40,11 @@ export default function Switch() {
 				</button>
 			</div>
 			<div className='Switch-page-container'>
-				<article className='Switch-page'>{page ? <About /> : null}</article>
-				{/* 
-				<div className='Switch-pages' id='Switch-page-1'>
-					<p>About about about about</p>
-				</div>
-				<div className='Switch-pages' id='Switch-page-2'>
-					<p>Pricing pricing pricing pricing</p>
-				</div> */}
+				<article className='Switch-page'>
+					{!page ? <About /> : <Pricing />}
+
+					{/* {!page ? <h1>About</h1> : <h1>Pricing</h1>} */}
+				</article>
 			</div>
 		</div>
 	);
