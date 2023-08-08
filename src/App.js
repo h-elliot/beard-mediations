@@ -9,6 +9,7 @@ import HeroImg from './components/HeroImg';
 import Footer from './components/Footer';
 
 function App() {
+	console.clear();
 	return (
 		<div className='App'>
 			<HelmetProvider>

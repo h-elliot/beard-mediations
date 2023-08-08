@@ -49,6 +49,7 @@ main {
 }
 
 .Main-container {
+  height: fit-content;
   display: grid;
   grid-template-columns: [col1] auto [col2] auto;
   grid-template-rows: [row1] 7vh  [row2] auto [row3] 4vh;
@@ -106,6 +107,10 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0
+}
+
+button {
+  height: fit-content;
 }
 
 
