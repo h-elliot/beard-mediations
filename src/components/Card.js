@@ -16,10 +16,11 @@ export default function Navbar() {
 				</h5>
 				<ul className='Profile-contact'>
 					<li id='Contact-phone'>
-						<strong>Direct: </strong>(903) 654-8380 <strong>| Office:</strong>
+						<strong>Direct: </strong>(903) 654-8380 <strong>Office: </strong>
 						(903) 872-8181
 					</li>
 					<li id='Contact-email'>
+						<strong>Email: </strong>
 						<a href='mailto:cbeard64@beardmediationsllc.com'>
 							cbeard64@beardmediationsllc.com
 						</a>

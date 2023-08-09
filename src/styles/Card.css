@@ -78,6 +78,17 @@
 	padding: .2%;
 }
 
+#Contact-phone {
+	display: block;
+	text-align: left;
+	align-self: flex-start;
+}
+#Contact-email {
+	display: block;
+	text-align: left;
+	align-self: flex-start;
+}
+
 @media screen and (max-width: 800px) {
 
 	.Card-text {
