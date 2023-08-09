@@ -1,5 +1,6 @@
 .Switch-wrapper {
 	height: fit-content;
+	margin: 0;
 }
 
 .Switch-Titles-container {
@@ -7,17 +8,30 @@
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: center;
-	
 }
 
 .Switch-Titles-container button {
 	border: none;
-	color: white;
+	color: #32292F;
+	background-color: #BBC8D9;
 	text-align: center;
 	text-decoration: none;
-	font-size: small;
+	border-radius: 4px;
+	/* padding: .05vmin 3em; */
+	margin: 0;
 }
 
-.Switch-Titles-container button:hover {}
+.Switch-Button-text {
+	margin: 0;
+}
 
-.Switch-Titles-container button:active {}
+.Switch-Titles-container button:hover {
+	background-color: #96a3b5;
+	color: #E7E1E0;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Switch-Titles-container button:active {
+	background-color: #32292F;
+	color: #E7E1E0;
+}

@@ -6,31 +6,25 @@ import Pricing from './Pricing.js';
 export default function Switch() {
 	const [page, setPage] = useState(false);
 
-	function showAbout() {
-		setPage(false);
-		console.log('showAbout called, page = ', page);
-	}
+	const switchButtons = document.querySelector('.Switch-buttons');
 
-	function showPricing() {
-		setPage(true);
-
-		console.log('showPricing called, page = ', page);
+	function switchPage() {
+		setPage(!page);
+		console.log('switchPage called, page = ', page);
 	}
 
 	return (
 		<div className='Switch-wrapper'>
 			<div className='Switch-Titles-container'>
 				<button
-					onClick={() => showAbout()}
+					onClick={() => switchPage()}
 					className='Switch-buttons'
 					id='Switch-button-1'>
-					ABOUT
-				</button>
-				<button
-					onClick={() => showPricing()}
-					className='Switch-buttons'
-					id='Switch-button-2'>
-					PRICING
+					{page ? (
+						<h4 className='Switch-button-text'>Read About</h4>
+					) : (
+						<h4 className='Switch-button-text'>See Pricing</h4>
+					)}
 				</button>
 			</div>
 			<div className='Switch-page-container'>
