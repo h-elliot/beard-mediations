@@ -103,15 +103,13 @@ main {
   color: #575366;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0
-}
 
-button, h3, h4 {
+ul, button, h3, h4, p {
+  list-style-type: none;
   height: fit-content;
   margin: 0;
+  padding: 0;
+  line-height: normal;
 }
 
 
