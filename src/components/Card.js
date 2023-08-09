@@ -15,7 +15,10 @@ export default function Navbar() {
 					Give me a call or email me to schedule your mediation.{' '}
 				</h5>
 				<ul className='Profile-contact'>
-					<li id='Contact-phone'>(903) 654-8380</li>
+					<li id='Contact-phone'>
+						<strong>Direct: </strong>(903) 654-8380 <strong>| Office:</strong>
+						(903) 872-8181
+					</li>
 					<li id='Contact-email'>
 						<a href='mailto:cbeard64@beardmediationsllc.com'>
 							cbeard64@beardmediationsllc.com
