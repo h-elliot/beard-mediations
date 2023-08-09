@@ -7,7 +7,7 @@ export default function Footer() {
 			<footer className='Footer-all'>
 				<ul className='Footer-text'>
 					<li className='Footer-text-items' id='Credit-1'>
-						Code by <a href='hunter.e.canavan@gmail.com'>Rook Elliot</a>
+						Code by <a href='mailto:hunter.e.canavan@gmail.com'>Rook Elliot</a>
 					</li>
 					<li className='Footer-text-items' id='Credit-2'>
 						Copyright 2023

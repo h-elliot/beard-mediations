@@ -17,7 +17,7 @@ export default function Navbar() {
 				<ul className='Profile-contact'>
 					<li id='Contact-phone'>(903) 654-8380</li>
 					<li id='Contact-email'>
-						<a href='cbeard64@beardmediationsllc.com'>
+						<a href='mailto:cbeard64@beardmediationsllc.com'>
 							cbeard64@beardmediationsllc.com
 						</a>
 					</li>

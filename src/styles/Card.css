@@ -7,9 +7,9 @@
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: center;
+	align-items: space-evenly;
 
 	overflow: hidden;
-
 }
 
 .Profile-image {
@@ -20,8 +20,6 @@
 	border: 3px solid #32292F;
 
 }
-
-/* CARD TEXT  */
 
 .Card-text {
 	display: flex;
@@ -39,8 +37,9 @@
 .Card-title {
 	text-align: left;
 	margin: 0;
-	height: auto;
-	padding: 1%;
+	height: min-content;
+	line-height: 100%;
+	font-weight: 500;
 }
 
 .Card-subtitle {
@@ -48,13 +47,12 @@
 	font-weight: 300;
 	font-style: italic;
 	text-align: left;
+	line-height: 100%;
 
 	height: auto;
-	padding: 0;
 	margin: 0 0 1% 0;
 	font-size: calc(8pt + 1vmin);
 
-	/* padding: 1%; */
 }
 
 .Profile-contact ul {
@@ -64,12 +62,10 @@
 	flex-flow: column;
 	justify-content: space-evenly;
 
-	/* padding: 1%; */
 }
 
 .Profile-contact li {
 	height: fit-content;
-	/* padding: 0; */
 	max-height: 25%;
 	font-size: calc(8pt + 1vmin);
 	list-style-type: none;
